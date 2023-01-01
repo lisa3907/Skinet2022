@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\temp\\Skinet2022\\Skinet.Application\\Skinet.Application.csproj": {}
+    "D:\\github.com\\lisa3907\\Skinet2022\\Skinet.Application\\Skinet.Application.csproj": {}
   },
   "projects": {
-    "D:\\temp\\Skinet2022\\Skinet.Application\\Skinet.Application.csproj": {
+    "D:\\github.com\\lisa3907\\Skinet2022\\Skinet.Application\\Skinet.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\temp\\Skinet2022\\Skinet.Application\\Skinet.Application.csproj",
+        "projectUniqueName": "D:\\github.com\\lisa3907\\Skinet2022\\Skinet.Application\\Skinet.Application.csproj",
         "projectName": "Skinet.Application",
-        "projectPath": "D:\\temp\\Skinet2022\\Skinet.Application\\Skinet.Application.csproj",
+        "projectPath": "D:\\github.com\\lisa3907\\Skinet2022\\Skinet.Application\\Skinet.Application.csproj",
         "packagesPath": "C:\\Users\\lisa3\\.nuget\\packages\\",
-        "outputPath": "D:\\temp\\Skinet2022\\Skinet.Application\\obj\\",
+        "outputPath": "D:\\github.com\\lisa3907\\Skinet2022\\Skinet.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -25,7 +25,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -35,14 +35,14 @@
           "https://nuget.devexpress.com/iyMaCb2nS5Pdg3cDYyhIJ7wUfoBhmFfVMXnwNNfDlhS2zqrmnq/api": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\temp\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj": {
-                "projectPath": "D:\\temp\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj"
+              "D:\\github.com\\lisa3907\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj": {
+                "projectPath": "D:\\github.com\\lisa3907\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj"
               },
-              "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj": {
-                "projectPath": "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj"
+              "D:\\github.com\\lisa3907\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj": {
+                "projectPath": "D:\\github.com\\lisa3907\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj"
               }
             }
           }
@@ -54,24 +54,24 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
@@ -94,14 +94,14 @@
         }
       }
     },
-    "D:\\temp\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj": {
+    "D:\\github.com\\lisa3907\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\temp\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj",
+        "projectUniqueName": "D:\\github.com\\lisa3907\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj",
         "projectName": "Skinet.Infrastracture",
-        "projectPath": "D:\\temp\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj",
+        "projectPath": "D:\\github.com\\lisa3907\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj",
         "packagesPath": "C:\\Users\\lisa3\\.nuget\\packages\\",
-        "outputPath": "D:\\temp\\Skinet2022\\Skinet.Infrastracture\\obj\\",
+        "outputPath": "D:\\github.com\\lisa3907\\Skinet2022\\Skinet.Infrastracture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -115,7 +115,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -125,11 +125,11 @@
           "https://nuget.devexpress.com/iyMaCb2nS5Pdg3cDYyhIJ7wUfoBhmFfVMXnwNNfDlhS2zqrmnq/api": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj": {
-                "projectPath": "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj"
+              "D:\\github.com\\lisa3907\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj": {
+                "projectPath": "D:\\github.com\\lisa3907\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj"
               }
             }
           }
@@ -141,8 +141,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -150,35 +150,35 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[6.16.0, )"
+              "version": "[6.25.1, )"
             },
             "StackExchange.Redis": {
               "target": "Package",
-              "version": "[2.5.43, )"
+              "version": "[2.6.86, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.16.0, )"
+              "version": "[6.25.1, )"
             }
           },
           "imports": [
@@ -201,14 +201,14 @@
         }
       }
     },
-    "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj": {
+    "D:\\github.com\\lisa3907\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj",
+        "projectUniqueName": "D:\\github.com\\lisa3907\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj",
         "projectName": "Skinet.Core",
-        "projectPath": "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj",
+        "projectPath": "D:\\github.com\\lisa3907\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj",
         "packagesPath": "C:\\Users\\lisa3\\.nuget\\packages\\",
-        "outputPath": "D:\\temp\\Skinet2022\\Skinnet.Core\\obj\\",
+        "outputPath": "D:\\github.com\\lisa3907\\Skinet2022\\Skinnet.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -222,7 +222,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -232,8 +232,8 @@
           "https://nuget.devexpress.com/iyMaCb2nS5Pdg3cDYyhIJ7wUfoBhmFfVMXnwNNfDlhS2zqrmnq/api": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -244,8 +244,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -253,7 +253,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
@@ -261,19 +261,19 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.22, )"
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
