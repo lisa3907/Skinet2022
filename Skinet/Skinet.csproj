@@ -22,9 +22,9 @@
 		<PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
 	</ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Core\Skinet.Core.csproj" />
     <ProjectReference Include="..\Skinet.Application\Skinet.Application.csproj" />
     <ProjectReference Include="..\Skinet.Infrastracture\Skinet.Infrastracture.csproj" />
+    <ProjectReference Include="..\Skinnet.Core\Skinet.Core.csproj" />
   </ItemGroup>
 
 

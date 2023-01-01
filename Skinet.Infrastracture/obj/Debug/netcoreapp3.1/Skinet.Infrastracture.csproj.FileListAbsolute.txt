@@ -62,3 +62,19 @@ F:\Software Programming Practice\ASP.NET FRAMEWORK SPECIAL\2022-POC-PROJECT\Clea
 F:\Software Programming Practice\ASP.NET FRAMEWORK SPECIAL\2022-POC-PROJECT\CleanArchitectureInAspNetCoreWebAPI\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.dll
 F:\Software Programming Practice\ASP.NET FRAMEWORK SPECIAL\2022-POC-PROJECT\CleanArchitectureInAspNetCoreWebAPI\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.pdb
 F:\Software Programming Practice\ASP.NET FRAMEWORK SPECIAL\2022-POC-PROJECT\CleanArchitectureInAspNetCoreWebAPI\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.genruntimeconfig.cache
+D:\temp\Skinet2022\Skinet.Infrastracture\bin\Debug\netcoreapp3.1\Skinet.Infrastracture.deps.json
+D:\temp\Skinet2022\Skinet.Infrastracture\bin\Debug\netcoreapp3.1\Skinet.Infrastracture.runtimeconfig.json
+D:\temp\Skinet2022\Skinet.Infrastracture\bin\Debug\netcoreapp3.1\Skinet.Infrastracture.runtimeconfig.dev.json
+D:\temp\Skinet2022\Skinet.Infrastracture\bin\Debug\netcoreapp3.1\Skinet.Infrastracture.dll
+D:\temp\Skinet2022\Skinet.Infrastracture\bin\Debug\netcoreapp3.1\Skinet.Infrastracture.pdb
+D:\temp\Skinet2022\Skinet.Infrastracture\bin\Debug\netcoreapp3.1\Skinet.Core.dll
+D:\temp\Skinet2022\Skinet.Infrastracture\bin\Debug\netcoreapp3.1\Skinet.Core.pdb
+D:\temp\Skinet2022\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.csproj.AssemblyReference.cache
+D:\temp\Skinet2022\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+D:\temp\Skinet2022\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.AssemblyInfoInputs.cache
+D:\temp\Skinet2022\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.AssemblyInfo.cs
+D:\temp\Skinet2022\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.csproj.CoreCompileInputs.cache
+D:\temp\Skinet2022\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.csproj.CopyComplete
+D:\temp\Skinet2022\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.dll
+D:\temp\Skinet2022\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.pdb
+D:\temp\Skinet2022\Skinet.Infrastracture\obj\Debug\netcoreapp3.1\Skinet.Infrastracture.genruntimeconfig.cache

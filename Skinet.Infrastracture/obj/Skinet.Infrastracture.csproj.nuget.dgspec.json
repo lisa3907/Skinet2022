@@ -1,104 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Software Programming Practice\\ASP.NET FRAMEWORK SPECIAL\\2022-POC-PROJECT\\CleanArchitectureInAspNetCoreWebAPI\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj": {}
+    "D:\\temp\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj": {}
   },
   "projects": {
-    "F:\\Software Programming Practice\\ASP.NET FRAMEWORK SPECIAL\\2022-POC-PROJECT\\CleanArchitectureInAspNetCoreWebAPI\\Core\\Skinet.Core.csproj": {
+    "D:\\temp\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Software Programming Practice\\ASP.NET FRAMEWORK SPECIAL\\2022-POC-PROJECT\\CleanArchitectureInAspNetCoreWebAPI\\Core\\Skinet.Core.csproj",
-        "projectName": "Skinet.Core",
-        "projectPath": "F:\\Software Programming Practice\\ASP.NET FRAMEWORK SPECIAL\\2022-POC-PROJECT\\CleanArchitectureInAspNetCoreWebAPI\\Core\\Skinet.Core.csproj",
-        "packagesPath": "C:\\Users\\MudassirAliKhan\\.nuget\\packages\\",
-        "outputPath": "F:\\Software Programming Practice\\ASP.NET FRAMEWORK SPECIAL\\2022-POC-PROJECT\\CleanArchitectureInAspNetCoreWebAPI\\Core\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\MudassirAliKhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.22, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Core": {
-              "target": "Package",
-              "version": "[2.2.5, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.22, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.22, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.22, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "F:\\Software Programming Practice\\ASP.NET FRAMEWORK SPECIAL\\2022-POC-PROJECT\\CleanArchitectureInAspNetCoreWebAPI\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\Software Programming Practice\\ASP.NET FRAMEWORK SPECIAL\\2022-POC-PROJECT\\CleanArchitectureInAspNetCoreWebAPI\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj",
+        "projectUniqueName": "D:\\temp\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj",
         "projectName": "Skinet.Infrastracture",
-        "projectPath": "F:\\Software Programming Practice\\ASP.NET FRAMEWORK SPECIAL\\2022-POC-PROJECT\\CleanArchitectureInAspNetCoreWebAPI\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj",
-        "packagesPath": "C:\\Users\\MudassirAliKhan\\.nuget\\packages\\",
-        "outputPath": "F:\\Software Programming Practice\\ASP.NET FRAMEWORK SPECIAL\\2022-POC-PROJECT\\CleanArchitectureInAspNetCoreWebAPI\\Skinet.Infrastracture\\obj\\",
+        "projectPath": "D:\\temp\\Skinet2022\\Skinet.Infrastracture\\Skinet.Infrastracture.csproj",
+        "packagesPath": "C:\\Users\\lisa3\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\Skinet2022\\Skinet.Infrastracture\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MudassirAliKhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lisa3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,14 +29,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/iyMaCb2nS5Pdg3cDYyhIJ7wUfoBhmFfVMXnwNNfDlhS2zqrmnq/api": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\Software Programming Practice\\ASP.NET FRAMEWORK SPECIAL\\2022-POC-PROJECT\\CleanArchitectureInAspNetCoreWebAPI\\Core\\Skinet.Core.csproj": {
-                "projectPath": "F:\\Software Programming Practice\\ASP.NET FRAMEWORK SPECIAL\\2022-POC-PROJECT\\CleanArchitectureInAspNetCoreWebAPI\\Core\\Skinet.Core.csproj"
+              "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj": {
+                "projectPath": "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj"
               }
             }
           }
@@ -171,7 +97,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -180,7 +107,102 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj",
+        "projectName": "Skinet.Core",
+        "projectPath": "D:\\temp\\Skinet2022\\Skinnet.Core\\Skinet.Core.csproj",
+        "packagesPath": "C:\\Users\\lisa3\\.nuget\\packages\\",
+        "outputPath": "D:\\temp\\Skinet2022\\Skinnet.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lisa3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/iyMaCb2nS5Pdg3cDYyhIJ7wUfoBhmFfVMXnwNNfDlhS2zqrmnq/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

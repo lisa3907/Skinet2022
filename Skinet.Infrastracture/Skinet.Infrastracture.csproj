@@ -19,8 +19,8 @@
 		<PackageReference Include="StackExchange.Redis" Version="2.5.43" />
 		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.16.0" />
 	</ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Core\Skinet.Core.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Skinnet.Core\Skinet.Core.csproj" />
+	</ItemGroup>
 
 </Project>

@@ -19,15 +19,19 @@ namespace Skinet.Infrastracture.Repositories
         }
         public async Task<IReadOnlyList<Products>> GetListOfproduct()
         { 
-            return  _StoreContext.Products
-                .Include(p=>p.ProductType)
-                .Include(b=>b.ProductBrand)
-                .ToList();
+            return await Task.FromResult(
+                    _StoreContext.Products
+                    .Include(p=>p.ProductType)
+                    .Include(b=>b.ProductBrand)
+                    .ToList()
+                );
         }
 
         public async Task<IReadOnlyList<ProductBrand>> GetProductBrandAsync()
         {
-            return _StoreContext.ProductBrands.ToList();
+            return await Task.FromResult(
+                    _StoreContext.ProductBrands.ToList()
+                );
         }
 
         public async Task<Products> GetProductByIdAsync(int Id)
@@ -41,7 +45,9 @@ namespace Skinet.Infrastracture.Repositories
 
         public async Task<IReadOnlyList<ProductType>> GetProductsTypeAsync()
         {
-            return _StoreContext.ProductTypes.ToList();
+            return await Task.FromResult(
+                    _StoreContext.ProductTypes.ToList()
+                );
         }
     }
 }

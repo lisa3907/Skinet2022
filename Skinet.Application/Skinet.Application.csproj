@@ -15,8 +15,8 @@
 		</PackageReference>
 	</ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Core\Skinet.Core.csproj" />
     <ProjectReference Include="..\Skinet.Infrastracture\Skinet.Infrastracture.csproj" />
+    <ProjectReference Include="..\Skinnet.Core\Skinet.Core.csproj" />
   </ItemGroup>
 
 </Project>

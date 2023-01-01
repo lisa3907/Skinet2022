@@ -5,7 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -17,14 +16,15 @@ namespace Skinet.Infrastracture.SeedData
         {
             try
             {
-                if(!storeContext.ProductBrands.Any())
+                if (!storeContext.ProductBrands.Any())
                 {
                     var branddata = File.ReadAllText("../Skinet.Infrastracture/SeedData/brands.json");
                     var brands = JsonSerializer.Deserialize<List<ProductBrand>>(branddata);
                     foreach (var brandItem in brands)
                     {
-                        storeContext.ProductBrands.AddAsync(brandItem);
+                        await storeContext.ProductBrands.AddAsync(brandItem);
                     }
+
                     await storeContext.SaveChangesAsync();
                 }
                 if (!storeContext.ProductTypes.Any())
@@ -34,8 +34,9 @@ namespace Skinet.Infrastracture.SeedData
 
                     foreach (var BrandTypes in types)
                     {
-                        storeContext.ProductTypes.AddAsync(BrandTypes);
+                        await storeContext.ProductTypes.AddAsync(BrandTypes);
                     }
+
                     await storeContext.SaveChangesAsync();
                 }
                 if (!storeContext.Products.Any())
@@ -45,7 +46,7 @@ namespace Skinet.Infrastracture.SeedData
 
                     foreach (var productsItems in products)
                     {
-                        storeContext.Products.AddAsync(productsItems);
+                        await storeContext.Products.AddAsync(productsItems);
                     }
                     await storeContext.SaveChangesAsync();
                 }

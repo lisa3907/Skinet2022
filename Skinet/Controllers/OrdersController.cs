@@ -53,16 +53,18 @@ namespace Skinet.Controllers
         [HttpGet(nameof(GetOrderByUserId))]
         public async Task<ActionResult<Order>> GetOrderByUserId(int userId)
         {
-          var user = HttpContext.User.ReteriveEmailFromPrincipal();
-          var order = await OrderService.GetOrderByIdAsync(userId,user);
+            var user = HttpContext.User.ReteriveEmailFromPrincipal();
+            var order = await OrderService.GetOrderByIdAsync(userId, user);
             if (order == null) return BadRequest(new APIResponce(404));
             return order;
         }
+
         [HttpGet(nameof(GetDeliverMethod))]
         public async Task<ActionResult<DeliveryMethod>> GetDeliverMethod()
         {
-            return Ok(OrderService.GetDeliveryMethodAsync());
+            return await Task.FromResult(
+                    Ok(OrderService.GetDeliveryMethodAsync())
+                );
         }
-
     }
 }
